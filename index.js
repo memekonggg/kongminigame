@@ -36,11 +36,11 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/Kong.loader.js";
+  var loaderUrl = buildUrl + "/kongminigame.loader.js";
   var config = {
-    dataUrl: buildUrl + "/Kong.data",
-    frameworkUrl: buildUrl + "/Kong.framework.js",
-    codeUrl: buildUrl + "/Kong.wasm",
+    dataUrl: buildUrl + "/kongminigame.data",
+    frameworkUrl: buildUrl + "/kongminigame.framework.js",
+    codeUrl: buildUrl + "/kongminigame.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "MemeKong",
